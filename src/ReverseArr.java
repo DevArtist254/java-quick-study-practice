@@ -14,7 +14,10 @@ public class ReverseArr {
         *
         * */
 
+
         int[] basedArr = new int[10];
+
+        Arrays.sort(basedArr);
 
         for (int i = 0;i <= basedArr.length - 1;i++) {
             basedArr[i] = i;
