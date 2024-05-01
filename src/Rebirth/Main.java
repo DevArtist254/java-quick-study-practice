@@ -11,5 +11,12 @@ public class Main {
         timsAcc.withdrawalFunds(30000);
 
         System.out.println(timsAcc);
+
+        User jane = new User("Jane", "a@Z.c", "23948234");
+
+        jane.deposit(2000);
+        jane.deposit(100);
+
+        System.out.println(jane);
     }
 }
